@@ -1,0 +1,63 @@
+//- bootstrap.jade
+//- bootstrap mixins
+
+
+//- Including Icon mixins
+include inc/components/icons
+//- Including Alert mixins
+include inc/components/alerts
+//- Including Tooltip mixins
+include inc/components/tooltips
+//- Including Accordion mixins
+include inc/components/accordion
+//- Including Carousel mixins
+include inc/components/carousel
+//- Including Table mixins
+include inc/components/tables
+//- Including Navbar mixins
+include inc/components/navbar
+//- Including Toggle Button mixins
+include inc/components/toggle
+//- Including Nav mixins
+include inc/components/navs
+//- Including Label mixins
+include inc/components/labels
+//- Including Panel mixins
+include inc/components/panels
+//- Including Tab mixins
+include inc/components/tabs
+//- Including Dropdown mixins
+include inc/components/dropdowns
+//- Including Form control mixins
+include inc/components/forms
+//- Including Modal dialog mixins
+include inc/components/modal
+//- Including List group mixins
+include inc/components/list-groups
+//- Including Progress bar mixins
+include inc/components/progress-bars
+//- Including Button mixins
+include inc/components/buttons
+//- Including Image mixins
+include inc/components/images
+//- Including Bootswatch theme mixins
+include inc/components/bootswatch
+
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport",content="width=device-width, initial-scale=1")
+		meta(name="description",content="")
+		meta(name="author",content="")
+		link(rel="icon",href="../../favicon.ico")
+		title= title
+		block styles
+			link(rel="stylesheet",href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css")
+	body(data-spy="scroll",data-target=".scrollspy")
+		block body
+			
+		block scripts
+			script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js")
+			script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js")

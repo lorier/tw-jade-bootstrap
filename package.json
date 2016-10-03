@@ -1,0 +1,21 @@
+{
+  "name": "tw-jade-bootstrap",
+  "version": "0.0.1",
+  "description": "Gulp Recipe - Jade, Sass, Livereload and static server",
+  "author": "Lorie Ransom",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-pug": "^3.0.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "marked": "^0.3.6",
+    "pug": "^2.0.0-beta6",
+    "tiny-lr": "^0.2.1"
+  }
+}

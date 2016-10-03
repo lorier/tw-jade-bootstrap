@@ -1,0 +1,19 @@
+{
+  "name": "tw-jade-bootstrap",
+  "description": "Gulp Recipe - Jade, Sass, Livereload and static server",
+  "main": "main",
+  "authors": [
+    "Lorie Ransom"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {}
+}
